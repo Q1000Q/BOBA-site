@@ -49,3 +49,25 @@ section > article {
     font-size: calc(0.7em + 1vw);
     margin-bottom: 1em;
 }
+
+footer {
+    margin-top: 1em;
+    padding: 1em;
+    background: #b6600a;
+    border-radius: .5em;
+    display: flex;
+}
+
+footer > span {
+    align-content: center;
+    margin-left: 1em;
+}
+
+footer > a {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+footer > a > img {
+    height: 3em;
+}
