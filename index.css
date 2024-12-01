@@ -1,0 +1,51 @@
+body {
+    font-family: "Fraunces", monospace;
+    background: #c76b0f;
+    color: #f6d193;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+header {
+    background: #b6600a;
+    border-radius: 1em;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+}
+
+header > nav > a {
+    background: #603101;
+    color: white;
+    padding: .7em;
+    padding-inline: 1.5em;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    margin-inline: 1em;
+}
+
+section {
+    margin-top: 2em;
+    padding: 2em;
+    background: #b6600a;
+    display: flex;
+    gap: 4em;
+    border-radius: 1em;
+}
+
+section > img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    border-radius: 1em;
+}
+
+section > article {
+    font-size: calc(0.7em + 1vw);
+    margin-bottom: 1em;
+}
